@@ -5,28 +5,47 @@ The objective of this project is to find insight contained in the dataset and to
 
 # Data Overview
 The dataset is comprised of 15 rows with 16,719 entry.
+
 Features included are as follows:
 
 Name: Name of the game
+
 Platform: Platform of the game
+
 Year of Release: Release Year of the game
+
 Genre: Main genre of the game
+
 Publisher: Publisher of the game
+
 NA Sales: Sales in North America territory
+
 EU Sales: Sales in Europe territory
+
 JP Sales: Sales in Japanese territory
+
 Other Sales: Sales in Other territory
+
 Global Sales: Sales in every territory
+
 Critic Score: Aggregate of Critic Score given to a game
+
 User Score: Aggregate of User Score given to a game
+
 Critic Count: Number of Critics giving Score to a game
+
 User Count: Number of Users giving Score to a game
+
 Developer: Developer of the game
+
 Rating: Rating of the game
 
 # Modelling
 
 The dataset is split into Training Data and Test Data with 80:20 ratio
+
 Several Machine Learning model is used in this project namely: Decision Tree, Random Forest, and Gradient Boosted Tree
+
 Evaluation metrics used are: Root Mean Square Error, Mean Absolute Error, and R2 Score
+
 Further details can be obtained in the Python Notebook
